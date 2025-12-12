@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kontak & Order | ManikCraft</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #f9f9fb;
+      color: #333;
+    }
+
+    header {
+      background: #fff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .brand {
+      font-weight: 700;
+      font-size: 22px;
+      color: #007bff;
+    }
+
+    .menu a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+      transition: .3s;
+    }
+
+    .menu a:hover { color: #007bff; }
+
+    /* Banner */
+    .banner {
+      width: 100%;
+      height: 320px;
+      overflow: hidden;
+      position: relative;
+    }
+    .banner img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: brightness(65%);
+    }
+    .banner-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: white;
+      font-size: 34px;
+      font-weight: 700;
+      text-shadow: 0 3px 6px rgba(0,0,0,0.4);
+      animation: fadeIn 1.5s ease;
+    }
+
+    h2 {
+      text-align: center;
+      color: #007bff;
+      margin-top: 40px;
+    }
+
+    .btn {
+      display: block;
+      width: 260px;
+      text-align: center;
+      padding: 14px;
+      border-radius: 8px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      margin: 12px auto;
+      transition: 0.3s;
+      font-size: 16px;
+    }
+
+    .btn:hover { opacity: 0.85; transform: scale(1.03); }
+
+    .wa { background:#25D366; }
+    .email { background:#007bff; }
+    .ig { background:#E4405F; }
+    .shop { background:#EE4D2D; }
+    .tiktok { background:#000; }
+
+    footer {
+      background:#007bff;
+      color:white;
+      text-align:center;
+      padding:20px;
+      margin-top:40px;
+    }
+
+    @keyframes fadeIn {
+      from {opacity:0;}
+      to   {opacity:1;}
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="container">
+    <nav>
+      <div class="brand">ManikCraft</div>
+      <div class="menu">
+        <a href="beranda.html">Beranda</a>
+        <a href="galeri.html">Galeri</a>
+        <a href="kontak.html">Kontak</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<!-- Banner Layar -->
+<div class="banner">
+  <img src="banner.jpg" alt="Banner Kontak ManikCraft">
+  <div class="banner-text">Hubungi Kami</div>
+</div>
+
+<div class="container">
+  <h2>Pilih Platform Order Favorit Kamu 💖</h2>
+  <p style="text-align:center;color:#555;">Silakan pilih salah satu untuk memesan gelang ManikCraft dengan mudah.</p>
+
+  <a class="btn wa" href="https://wa.me/6285755796441?text=Halo%20ManikCraft%2C%20saya%20ingin%20memesan%20gelang." target="_blank">
+    📱 Order via WhatsApp
+  </a>
+
+  <a class="btn email" href="yy445461@gmail.com?subject=Pesanan%20Gelang%20ManikCraft" target="_blank">
+    📧 Kirim Email
+  </a>
+
+
+</div>
+
+<footer>
+  © 2025 ManikCraft — Satu Manik, Satu Cerita
+</footer>
+
+</body>
+</html>
